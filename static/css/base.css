@@ -1,0 +1,262 @@
+/*Name: Akshay Kapoor, Email: ak4229@drexel.edu
+CS530: DUI, Assignment 4 */
+body {
+    font-family: "Avenir";
+    font-size: 1rem;
+    background: #eee;
+}
+
+header {
+    background: #452D9B;
+}
+
+.btn-primary {
+    background: #507C49;
+    border-color: #406C39;
+    color: #fff !important;
+}
+
+.btn-primary:hover {
+    background: #608C59;
+    border-color: #406C39;
+    color: #fff !important;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+.jumbotron {
+    padding: 1.5rem;
+    background: 0;
+}
+
+.jumbotron img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-deck .card {
+    margin-bottom: 30px;
+}
+
+.card .card-body {
+    margin-bottom: 0;
+}
+
+.page-link, .page-link:hover {
+    color: #204C19;
+}
+
+.card.adopted {
+    opacity: .25;
+}
+
+.nav-link{
+	color: white;
+}
+
+.searchbtn{
+	background: #FFC10E;
+	border: 2px #1A4F83;
+}
+
+.details{
+	background-color: coral;
+	height: 4.5em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.show-read-more .more-text {
+  display: none;
+}
+
+.highlight{ 
+  background: #FFC10E; 
+  padding:1px; 
+  border:#00CC00 dotted 1px; 
+}
+
+.image{
+	padding: 1px; 
+	width:20%;
+	Text-align:center;
+	float:left;
+	position:relative; 
+	top:20px;
+}
+
+body{
+	color: black;
+	background-color: white;
+}
+
+.heading{
+	padding: 1px; 
+	color: black;
+	float:left;
+	position:relative; 
+	top:20px;
+}
+
+.rating{
+   position: absolute;
+  top: 150px;
+  left: 435px;
+}
+
+.address{
+   position: absolute;
+  top: 180px;
+  left: 435px;
+}
+
+.URL{
+	position: absolute;
+  top: 270px;
+  left: 435px;
+}
+
+.charitynavURL{
+	position: absolute;
+  top: 305px;
+  left: 435px;
+}
+
+.mission{
+	position: absolute;
+  top: 350px;
+  left: 150px;
+  right: 150px;
+}
+
+.related{
+	position: absolute;
+  top: 350px;
+  left: 150px;
+  right: 150px;
+}
+
+.relorg{
+	text-weight: 20%;
+	position: absolute;
+  top: 470px;
+  left: 150px;
+  right: 150px;
+}
+.boxes {
+
+  position: absolute;
+  border-width: thick;
+  top: 530px;
+  left:150px;
+  float: left;
+  background-color: #d2eeff;
+  border-color: #1a4f83
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 25px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+}
+
+.boxes2 {
+  
+ position: absolute;
+  top: 530px;
+  left:450px;
+  float: left;
+  background-color: #d2eeff;
+  border-color: #1a4f83
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 25px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+}
+
+.boxes3 {
+  position: absolute;
+  top: 530px;
+  left:750px;
+  float: left;
+  background-color: #d2eeff;
+  border-color: #1a4f83
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 25px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+}
+
+.boxes4 {
+
+  position: absolute;
+  border-width: thick;
+  top: 680px;
+  left:150px;
+  float: left;
+  background-color: #d2eeff;
+  border-color: #1a4f83
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 25px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+}
+
+.boxes5 {
+
+  position: absolute;
+  border-width: thick;
+  top: 680px;
+  left:450px;
+  float: left;
+  background-color: #d2eeff;
+  border-color: #1a4f83
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 25px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+}
+
+.boxes6 {
+
+  position: absolute;
+  border-width: thick;
+  top: 680px;
+  left:750px;
+  float: left;
+  background-color: #d2eeff;
+  border-color: #1a4f83
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 25px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+}
+
+
+.item {
+  background-color: #80cbc4;
+  border: 1px solid #fff;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

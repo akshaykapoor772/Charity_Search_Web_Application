@@ -1,0 +1,59 @@
+<!--Name: Akshay Kapoor, Email: ak4229@drexel.edu
+#CS530: DUI, Assignment 4 -->
+{% extends 'base.html' %}
+{% set active = "Home" %}
+{% block header %}
+<script src="/static/js/searcher.js"></script>
+{% endblock %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+
+
+
+<section class="jumbotron">
+    <div class="text-center">
+        <h1 class="jumbotron-heading">Charity Search</h1>
+        <p class="lead text-muted">Find a worthy charity today!</p>
+<form id="searchBox" onsubmit="return false"> 
+		<input style="width:400px;" id="query">
+		<button class="searchbtn" id="myBtn" type="submit">Search</button>
+</form>
+    </div>
+</section>
+
+<table class="table">
+</table>
+
+<script>
+	$(document).ready(function(){
+    $("#searchBox").submit(function(event){
+		const Searcher = new searcher();
+        Searcher.load();
+		
+		});
+	});
+
+/*
+	$("#myBtn").click(function(){
+		const Searcher = new searcher();
+        Searcher.load();
+	});
+	*/
+	
+	//$(document).ready(function(){
+		// Get value on button click and show alert
+		//const Searcher = new searcher();
+        //Searcher.load();
+	//});
+
+</script>
+
+
+
+{% endblock %}
+

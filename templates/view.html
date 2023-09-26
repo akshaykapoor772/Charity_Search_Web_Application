@@ -1,0 +1,76 @@
+<!--Name: Akshay Kapoor, Email: ak4229@drexel.edu
+#CS530: DUI, Assignment 4 -->
+{% extends 'base.html' %}
+{% set active = "Home" %}
+{% block header %}
+<script src="/static/js/viewer.js"></script>
+<script src="/static/js/searcher.js"></script>
+{% endblock %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+
+
+
+<body>
+<div class="image">
+ 
+</div>
+
+<div class="heading"><h1 class="mainhead2" style="color=black;"></h1></div>
+<div class="rating"></div>
+<div class="address"></div>
+<div class="URL"></div>
+<div class="charitynavURL"></div>
+<div class="mission"></div>
+<div class="relorg">Related Organizations</div>
+<div class="boxes" style = "border:2px solid darkblue;">
+    <div ></div>
+</div>
+<div class="boxes2" style = "border:2px solid darkblue;">
+    <div ></div>
+</div>
+<div class="boxes3" style = "border:2px solid darkblue;">
+    <div ></div>
+</div>
+<div class="boxes4" style = "border:2px solid darkblue;">
+    <div ></div>
+</div>
+<div class="boxes5" style = "border:2px solid darkblue;">
+    <div ></div>
+</div>
+<div class="boxes6" style = "border:2px solid darkblue;">
+    <div ></div>
+</div>
+
+<div class="table"></div>
+<script>
+	$(document).ready(function(){
+		const Viewer = new viewer();
+        Viewer.load();
+	});
+
+
+/*
+	$("#myBtn").click(function(){
+		const Searcher = new searcher();
+        Searcher.load();
+	});
+	*/
+	
+	//$(document).ready(function(){
+		// Get value on button click and show alert
+		//const Searcher = new searcher();
+        //Searcher.load();
+	//});
+
+</script>
+</body>
+
+
+{% endblock %}
+
